@@ -144,7 +144,7 @@ height: 3rem;
 }
 
 .ana {
-    background-image: url(/img/AnaIcon.png);
+    background-image: url(./img/AnaIcon.png);
   position:relative;
 }
 
