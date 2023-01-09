@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body, html, .characternav {
+    background: #151515!important;
+  justify-content: center;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#searchbox {
+    display: block;
+    flex-grow: 1;
+    padding: 0.75em;
+    margin: 1.5em 0.7em;
+    font-size: 11pt;
+  font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background: #333333;
+    color: #fcfcfc;
+  border: 3px solid #555555;
+  border-radius: 3px;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+}
+
+input:focus {
+    outline: none;
+}
+
+.siteheader {
+    background: #00C3FF;
+  transform: skew(-0.25rad);
+  border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    padding: 0.9em;
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.siteheader h1 {
+    font-size: 18pt;
+    padding: 0 0.2em 0 0;
+    margin: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heroicon {
+    width: 256px;
+  height: 256px;
+    padding: 0;
+    text-align: center;
+    margin: 0.33em;
+    user-select: none;
+  border-radius: 5px;
+    background-color: #555555;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  transition: 0.1s;
+  z-index: 1;
+}
+
+.heroicon:hover {
+  background-color: #ffc640;
+}
+
+.heroicon a, .heroicon a:visited {
+    padding: 0.66em 0em;
+    width: 100%;
+  height: 100%;
+    color: #ffffff;
+    text-shadow: 1px 1px 6px #111111;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22pt;
+  position: relative;
+}
+
+.heroname {
+    background: #111111;
+}
+
+
+.heroNav {
+  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0.5em;
+}
+
+.class-icon {
+  display: flex;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  padding: 4px;
+  margin: -10px;
+}
+
+.misc-icon {
+  display: flex;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  padding: 4px;
+  margin: -10px;
+}
+
+.overwatch-icon {
+height: 3rem;
+}
+
+.tank-icon {
+height: 3rem;
+}
+
+.damage-icon {
+ height: 3rem;
+}
+
+.support-icon {
+height: 3rem;
+}
+
+.ana {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/AnaIcon.png?v=1672851790016);
+  position:relative;
+  z-index:2;
+}
+
+.ashe {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/AsheIcon.png?v=1673040342443);
+  position: relative;
+}
+
+.baptiste {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/BaptisteIcon.png?v=1673040357203);
+  position:relative;
+}
+
+.bastion {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/BastionIcon.png?v=1672851643683);
+  position:relative;
+}
+
+.brigitte {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/BrigitteIcon.png?v=1673040408559);
+  position:relative;
+}
+
+.cassidy {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/CassidyIcon.png?v=1673040077096);
+  position:relative;
+}
+
+.dva {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/DVaIcon.png?v=1672858608879);
+  position:relative;
+}
+
+.doomfist {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/DoomfistIcon.png?v=1672852170969);
+  position:relative;
+}
+
+.echo {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/EchoIcon.png?v=1673040109327);
+  position:relative;
+}
+
+.genji {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/GenjiIcon.png?v=1672862517524);
+  position:relative;
+}
+
+.hanzo {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/HanzoIcon.png?v=1673039706437);
+  position:relative;
+}
+
+.junker-queen {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/JunkerQueenIcon.png?v=1672862138374);
+  position:relative;
+}
+
+.junkrat {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/JunkratIcon.png?v=1672862497384);
+  position:relative;
+}
+
+.kiriko {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/KirikoIcon.png?v=1672852162900);
+  position:relative;
+}
+
+.lucio {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/LucioIcon.png?v=1673040496322);
+  position:relative;
+}
+
+.mei {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/MeiIcon.png?v=1673041599035);
+  position:relative;
+}
+
+.mercy {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/MercyIcon.png?v=1672851918644);
+  position:relative;
+}
+
+.moira {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/MoiraIcon.png?v=1673040514439);
+  position:relative;
+}
+
+.orisa {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/OrisaIcon.png?v=1672852167082);
+  position:relative;
+}
+
+.pharah {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/PharahIcon.png?v=1673039831889);
+  position:relative;
+}
+
+.ramattra {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/RamattraIcon.png?v=1673040219221);
+  position:relative;
+}
+
+.reaper {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/ReaperIcon.png?v=1673039686486);
+  position:relative;
+}
+
+.reinhardt {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/ReinhardtIcon.png?v=1673040533399);
+  position:relative;
+}
+
+.roadhog {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/RoadhogIcon.png?v=1673041387351);
+  position:relative;
+}
+
+.sigma {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/SigmaIcon.png?v=1673041129208);
+  position:relative;
+}
+
+.sojourn {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/SojournIcon.png?v=1672851923369);
+  position:relative;
+}
+
+.soldier-76 {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/Soldier76Icon.png?v=1673040755681);
+  position:relative;
+}
+
+.sombra {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/SombraIcon.png?v=1672858302949);
+  position:relative;
+}
+
+.symmetra {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/SymmetraIcon.png?v=1672852939206);
+  position:relative;
+}
+
+.torbjorn {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/TorbjornIcon.png?v=1673039995681);
+  position:relative;
+}
+
+.tracer {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/TracerIcon.png?v=1672858616066);
+  position:relative;
+}
+
+.widowmaker {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/WidowmakerIcon.png?v=1673040018535);
+  position:relative;
+}
+
+.winston {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/WinstonIcon.png?v=1673040045393);
+  position:relative;
+}
+
+.wrecking-ball {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/WreckingBallIcon.png?v=1673040283067);
+  position:relative;
+}
+
+.zarya {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/ZaryaIcon.png?v=1672858061893);
+  position:relative;
+}
+
+.zenyatta {
+    background-image: url(https://cdn.glitch.global/061adf29-1fd2-4aab-a5e9-d5f37f0c8706/ZenyattaIcon.png?v=1673039903766);
+  position:relative;
+}
+
+
