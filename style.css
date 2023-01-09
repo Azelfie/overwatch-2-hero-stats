@@ -144,9 +144,8 @@ height: 3rem;
 }
 
 .ana {
-    background-image: url(https://github.com/Azelfie/overwatch-2-hero-stats/blob/main/img/AnaIcon.png);
+    background-image: url(/img/AnaIcon.png);
   position:relative;
-  z-index:2;
 }
 
 .ashe {
